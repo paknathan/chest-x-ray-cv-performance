@@ -1,0 +1,15 @@
+{
+  "split_method": "official test list + patient-level train/validation split",
+  "total_images": 112120,
+  "total_patients": 30805,
+  "train_images": 73916,
+  "validation_images": 12608,
+  "test_images": 25596,
+  "train_patients": 23806,
+  "validation_patients": 4202,
+  "test_patients": 2797,
+  "view_position_counts": {
+    "PA": 67310,
+    "AP": 44810
+  }
+}
