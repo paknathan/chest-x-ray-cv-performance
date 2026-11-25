@@ -1,0 +1,73 @@
+{
+  "summary": {
+    "model": "deit_tiny_patch16_224",
+    "parameter_count": 5527118,
+    "params_m": 5.527118,
+    "forward_flops": 2506987776,
+    "gflops": 2.506987776,
+    "gmacs": 1.253493888,
+    "cpu_latency_ms": 55.49661572400032,
+    "cpu_latency_std_ms": 6.064031117488886,
+    "gpu_latency_ms": 7.0566595760003565,
+    "gpu_latency_std_ms": 0.6876216381107444,
+    "gpu_peak_allocated_mb": 31.5380859375,
+    "gpu_resident_mb": 29.8056640625,
+    "gpu_incremental_peak_mb": 1.732421875,
+    "batch_size": 1,
+    "input_shape": "1x3x224x224",
+    "num_classes": 14,
+    "dtype": "float32",
+    "cpu_threads": 4,
+    "warmup_iters": 10,
+    "timed_iters_per_trial": 50,
+    "trials": 5
+  },
+  "cpu_timing": {
+    "mean_ms": 55.49661572400032,
+    "std_ms": 6.064031117488886,
+    "trial_mean_ms": [
+      65.88984356000083,
+      55.1674983800001,
+      53.318757900000264,
+      52.8030563599998,
+      50.30392242000062
+    ]
+  },
+  "gpu_timing": {
+    "mean_ms": 7.0566595760003565,
+    "std_ms": 0.6876216381107444,
+    "trial_mean_ms": [
+      6.798834759999863,
+      6.318426100000352,
+      6.652172860000292,
+      7.496683060001033,
+      8.017181100000244
+    ],
+    "resident_mb": 29.8056640625,
+    "peak_allocated_mb": 31.5380859375,
+    "incremental_peak_mb": 1.732421875,
+    "peak_reserved_mb": 44.0
+  },
+  "counted_flop_operators": {
+    "aten.convolution": 57802752,
+    "aten.addmm": 2091521280,
+    "aten.bmm": 357663744
+  },
+  "hardware": {
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+    "cpu_name": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+    "logical_cpu_count": 2,
+    "cpu_affinity_count": 2,
+    "cgroup_cpu_max": "max 100000",
+    "torch_threads": 4,
+    "torch_interop_threads": 1,
+    "torch": "2.14.1+cu130",
+    "timm": "1.0.31",
+    "cuda_runtime": "13.0",
+    "cudnn": 92800,
+    "gpu_name": "Tesla T4",
+    "gpu_total_memory_mb": 14912.6875
+  },
+  "flop_profile_attention": "explicit matmul for complete attention count; original default fused path used for saved timing and memory"
+}

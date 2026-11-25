@@ -1,0 +1,4 @@
+run,best_epoch,val_macro_auc,test_macro_auc,total_train_time_sec,peak_gpu_mem_mb,checks_passed
+mobilenetv3s_100,8,0.707786985090706,0.6707814300352579,390.2,543.3,True
+mobilenetv3s_50,5,0.6657757536682454,0.632360138112599,245.5,543.3,True
+mobilenetv3s_25,7,0.6222518861496001,0.599344953516657,175.3,543.3,True

@@ -1,0 +1,74 @@
+{
+  "training_runs.csv": {
+    "bytes": 1404,
+    "sha256": "0a0ec2515996cf947a0ec2dd2521676cc725299eb40d2d6a4bbfd5436f78410e"
+  },
+  "mobilenet_submission.zip": {
+    "bytes": 19149510,
+    "sha256": "52a084297fc6238140ab92dc15c8a23e7f8aa10fb9c0bafd56d4f7759da88648"
+  },
+  "deit_tiny_patch16_224.json": {
+    "bytes": 2104,
+    "sha256": "d3b1840a2c39a0c94dfdc14e9a41cad1881f107e3861baa6772a9a95e4297123"
+  },
+  "MobileNetV3_Colab.ipynb": {
+    "bytes": 301565,
+    "sha256": "f56e235fa33a08f358804527922144863f3a1fdcf5f06ee791315f2e8f72a87f"
+  },
+  "requirements.txt": {
+    "bytes": 56,
+    "sha256": "beb8450ef54cb3d13406265014ea145c0f264cf1c30734d74d6692b33fb52816"
+  },
+  "benchmark_protocol.json": {
+    "bytes": 1191,
+    "sha256": "0a75688d36e95e7c4af32580e6d52c5bf85b49125646acb6960be2966def8a29"
+  },
+  "training_runs.json": {
+    "bytes": 3632,
+    "sha256": "2d0d405b40c1898b220dbf90f3c63c1cfdc261d11493bd2dde1e94de20a00221"
+  },
+  "mobilenet_results_summary.csv": {
+    "bytes": 312,
+    "sha256": "aeaeba663e78aaf037cc42e46738b39c9177a0452d6a84cc216d0ef9444cbfc9"
+  },
+  "README.md": {
+    "bytes": 4477,
+    "sha256": "8f91a2af282d7a6620e6bb47d51bbafb8a6deb123e9ab28ccb5c71653cd9bc60"
+  },
+  "benchmark_efficiency.py": {
+    "bytes": 8859,
+    "sha256": "5c1c9c0e7dc8c5f36f2def20d05a40b838b1a4994e40f8d6ae374dd2a30b8ef6"
+  },
+  "mobilenet_validation_report.json": {
+    "bytes": 702,
+    "sha256": "4bb4b98a29d48754baea3d60bbe2393cc3396bb017b8b484242451dfbe5b2bc4"
+  },
+  "run_mobilenet.py": {
+    "bytes": 9204,
+    "sha256": "96ef11ee28f2860e9e66c5f7d7f71aedb79e6ca3682a803447a06f34d4d34d11"
+  },
+  "validation.json": {
+    "bytes": 180,
+    "sha256": "2b440f2b1e6b291cc7f6023ce0c10763e1b63a6c1fd37d81e2ed4f0b4fb19ad0"
+  },
+  "train.py": {
+    "bytes": 11732,
+    "sha256": "910db8b3fa2a2113756f363c904bb5cff2a7b8725d3bceae7e832438409df2f4"
+  },
+  "Efficiency_Benchmark_Colab.ipynb": {
+    "bytes": 12452,
+    "sha256": "70d6a92b65d60d308f4c2cd0413536478b643a10134f834fbf299a680adb50f4"
+  },
+  "efficiency_benchmark.csv": {
+    "bytes": 943,
+    "sha256": "b0ff7074bfdf59ef966abc5105649bd6065713a9ab4fff8b6d3a38fb2cf9c49b"
+  },
+  "resnet18.json": {
+    "bytes": 1933,
+    "sha256": "1f36388aee20f32ef8fb6767ed8adea2d6d8c5cb390034b721f05c73b146a6a8"
+  },
+  "mobilenetv3_small_100.json": {
+    "bytes": 1930,
+    "sha256": "f371d7e9b92c8a1e42874534560b488ca375fc3a8ea75a894ba69f984b9a8abc"
+  }
+}

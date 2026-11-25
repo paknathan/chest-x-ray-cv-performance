@@ -1,0 +1,10 @@
+model,fraction,available,training_gpu,total_train_time_sec,training_peak_gpu_mem_mb,best_epoch,best_val_auc,test_macro_auc,seed,pretrained,source
+resnet18,100,True,Tesla T4,1023.3,1000.6,3,0.7286601039822848,0.7099240009792389,2026,True,Group Project/training/anurag_shared/resnet18_full/run_summary.json
+resnet18,50,True,Tesla T4,616.1,1000.6,4,0.7055468397105125,0.6872358673287333,2026,True,Group Project/training/anurag_shared/resnet18_50/run_summary.json
+resnet18,25,True,Tesla T4,419.6,1000.7,3,0.6563506595492578,0.6525573700001314,2026,True,Group Project/training/anurag_shared/resnet18_25/run_summary.json
+mobilenetv3_small_100,100,True,Tesla T4,390.2,543.3,8,0.707786985090706,0.6707814300352579,2026,True,Group Project/training/results/mobilenetv3s_100/run_summary.json
+mobilenetv3_small_100,50,True,Tesla T4,245.5,543.3,5,0.6657757536682454,0.632360138112599,2026,True,Group Project/training/results/mobilenetv3s_50/run_summary.json
+mobilenetv3_small_100,25,True,Tesla T4,175.3,543.3,7,0.6222518861496001,0.599344953516657,2026,True,Group Project/training/results/mobilenetv3s_25/run_summary.json
+deit_tiny_patch16_224,100,True,Tesla T4,1027.5,1020.7,8,0.6945174374525784,0.648435101818413,2026,True,Group Project/training/nathan_result/runs/deit_tiny_full/run_summary.json
+deit_tiny_patch16_224,50,False,,,,,,,,,not shared yet
+deit_tiny_patch16_224,25,False,,,,,,,,,not shared yet

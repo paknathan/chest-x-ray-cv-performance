@@ -1,0 +1,71 @@
+{
+  "summary": {
+    "model": "mobilenetv3_small_100",
+    "parameter_count": 1532206,
+    "params_m": 1.532206,
+    "forward_flops": 111001472,
+    "gflops": 0.111001472,
+    "gmacs": 0.055500736,
+    "cpu_latency_ms": 26.4035512439998,
+    "cpu_latency_std_ms": 1.6742937756267056,
+    "gpu_latency_ms": 5.128514591999874,
+    "gpu_latency_std_ms": 0.1797635264284367,
+    "gpu_peak_allocated_mb": 18.0712890625,
+    "gpu_resident_mb": 14.6494140625,
+    "gpu_incremental_peak_mb": 3.421875,
+    "batch_size": 1,
+    "input_shape": "1x3x224x224",
+    "num_classes": 14,
+    "dtype": "float32",
+    "cpu_threads": 4,
+    "warmup_iters": 10,
+    "timed_iters_per_trial": 50,
+    "trials": 5
+  },
+  "cpu_timing": {
+    "mean_ms": 26.4035512439998,
+    "std_ms": 1.6742937756267056,
+    "trial_mean_ms": [
+      23.7593116000005,
+      26.378477519999706,
+      27.74594269999966,
+      27.943947459999663,
+      26.19007693999947
+    ]
+  },
+  "gpu_timing": {
+    "mean_ms": 5.128514591999874,
+    "std_ms": 0.1797635264284367,
+    "trial_mean_ms": [
+      5.0005331200009095,
+      5.295285659999536,
+      5.349313939999547,
+      5.034929879999481,
+      4.9625103599998965
+    ],
+    "resident_mb": 14.6494140625,
+    "peak_allocated_mb": 18.0712890625,
+    "incremental_peak_mb": 3.421875,
+    "peak_reserved_mb": 28.0
+  },
+  "counted_flop_operators": {
+    "aten.convolution": 110972800,
+    "aten.addmm": 28672
+  },
+  "hardware": {
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+    "cpu_name": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+    "logical_cpu_count": 2,
+    "cpu_affinity_count": 2,
+    "cgroup_cpu_max": "max 100000",
+    "torch_threads": 4,
+    "torch_interop_threads": 1,
+    "torch": "2.14.1+cu130",
+    "timm": "1.0.31",
+    "cuda_runtime": "13.0",
+    "cudnn": 92800,
+    "gpu_name": "Tesla T4",
+    "gpu_total_memory_mb": 14912.6875
+  }
+}

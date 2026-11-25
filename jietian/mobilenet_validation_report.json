@@ -1,0 +1,29 @@
+[
+  {
+    "run": "mobilenetv3s_100",
+    "best_epoch": 8,
+    "val_macro_auc": 0.707786985090706,
+    "test_macro_auc": 0.6707814300352579,
+    "total_train_time_sec": 390.2,
+    "peak_gpu_mem_mb": 543.3,
+    "checks_passed": true
+  },
+  {
+    "run": "mobilenetv3s_50",
+    "best_epoch": 5,
+    "val_macro_auc": 0.6657757536682454,
+    "test_macro_auc": 0.632360138112599,
+    "total_train_time_sec": 245.5,
+    "peak_gpu_mem_mb": 543.3,
+    "checks_passed": true
+  },
+  {
+    "run": "mobilenetv3s_25",
+    "best_epoch": 7,
+    "val_macro_auc": 0.6222518861496001,
+    "test_macro_auc": 0.599344953516657,
+    "total_train_time_sec": 175.3,
+    "peak_gpu_mem_mb": 543.3,
+    "checks_passed": true
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "models": [
+    "resnet18",
+    "mobilenetv3_small_100",
+    "deit_tiny_patch16_224"
+  ],
+  "initialization": "random; pretrained=False; no checkpoint",
+  "scope": "architecture-level, model-forward-only inference; preprocessing and data transfer excluded",
+  "execution": "timm eager eval, torch.no_grad, FP32, TF32 disabled, cudnn.benchmark=False",
+  "input_shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "num_classes": 14,
+  "cpu_threads": 4,
+  "warmup_iters": 10,
+  "timed_iters_per_trial": 50,
+  "trials": 5,
+  "latency_statistic": "mean of trial means; standard deviation across trial means",
+  "gpu_timing": "perf_counter; CUDA synchronization before and after each timed block",
+  "complexity": "PyTorch FlopCounterMode supported-operator estimates; GFLOPs=FLOPs/1e9; GMACs=FLOPs/2e9",
+  "memory": "PyTorch peak allocated MiB after warmup and peak reset; includes model/input/inference tensors; excludes CUDA context and non-PyTorch allocations",
+  "isolation": "fresh subprocess per architecture; CPU model deleted before GPU model allocation",
+  "attention_flop_count": "DeiT fused_attn=False for FLOP profiling only; original default fused path used for latency and memory"
+}
