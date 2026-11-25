@@ -1,0 +1,14 @@
+{
+  "best_val_auc": 0.6563506595492578,
+  "test_macro_auc": 0.6525573700001314,
+  "device": "cuda",
+  "num_labels": 14,
+  "seed": 2026,
+  "model": "resnet18",
+  "fraction": "25",
+  "pretrained": true,
+  "best_epoch": 3,
+  "gpu_name": "Tesla T4",
+  "total_train_time_sec": 419.6,
+  "peak_gpu_mem_mb": 1000.7
+}

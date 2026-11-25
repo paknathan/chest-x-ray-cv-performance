@@ -1,0 +1,14 @@
+resolved train: 1828 images
+resolved val: 2872 images
+resolved test: 5757 images
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{"epoch": 1, "train_loss": 2.152588388852009, "val_loss": 1.8067803973939094, "val_auc": 0.5944584571247536, "lr": 9.755282581475769e-05, "epoch_time_sec": 17.9}
+{"epoch": 2, "train_loss": 1.1671365296032028, "val_loss": 2.328036088465316, "val_auc": 0.6071343517804921, "lr": 9.045084971874737e-05, "epoch_time_sec": 17.9}
+{"epoch": 3, "train_loss": 0.9416471902338107, "val_loss": 2.4831872992528847, "val_auc": 0.6064769379934942, "lr": 7.938926261462366e-05, "epoch_time_sec": 17.1}
+{"epoch": 4, "train_loss": 0.8189134763419237, "val_loss": 2.493092343335696, "val_auc": 0.6151269602215939, "lr": 6.545084971874737e-05, "epoch_time_sec": 17.1}
+{"epoch": 5, "train_loss": 0.6684162485651688, "val_loss": 2.9288929577989498, "val_auc": 0.6155532651104577, "lr": 4.9999999999999996e-05, "epoch_time_sec": 17.3}
+{"epoch": 6, "train_loss": 0.5926581433356721, "val_loss": 2.7876922765482104, "val_auc": 0.6161269401063664, "lr": 3.454915028125263e-05, "epoch_time_sec": 18.5}
+{"epoch": 7, "train_loss": 0.5018578402583918, "val_loss": 3.430252258159988, "val_auc": 0.6222518861496001, "lr": 2.0610737385376345e-05, "epoch_time_sec": 17.3}
+{"epoch": 8, "train_loss": 0.47556977544623863, "val_loss": 3.4045801690694018, "val_auc": 0.6190992663423049, "lr": 9.549150281252631e-06, "epoch_time_sec": 17.0}
+{"epoch": 9, "train_loss": 0.4361074008618194, "val_loss": 3.4426176863460487, "val_auc": 0.6199598068269164, "lr": 2.447174185242323e-06, "epoch_time_sec": 16.9}
+{"epoch": 10, "train_loss": 0.43397965238183017, "val_loss": 3.435411940710126, "val_auc": 0.6222095814385895, "lr": 0.0, "epoch_time_sec": 18.3}

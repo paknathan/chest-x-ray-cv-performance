@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+_DS_Store*
+
+# Training checkpoints: too large for GitHub (keep them in Google Drive)
+*.pt
+*.pth
+# ...but keep the small final weights for each run
+!*_best_weights.pt
+
+# Kaggle/Colab leftovers
+__huggingface_repos__.json
+.ipynb_checkpoints/

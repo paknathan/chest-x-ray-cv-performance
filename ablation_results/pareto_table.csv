@@ -1,0 +1,4 @@
+model_name,test_macro_auc,ci_low,ci_high,params_m,gmacs,cpu_latency_ms,gpu_latency_ms,gpu_peak_allocated_mb,on_frontier_latency,on_frontier_gmacs
+MobileNetV3-Small,0.6708,0.651,0.6902,1.5322,0.0555,26.4036,5.1285,18.0713,True,True
+DeiT-Tiny,0.6484,0.6307,0.6644,5.5271,1.2535,55.4966,7.0567,31.5381,False,False
+ResNet-18,0.7099,0.6924,0.7281,11.1837,1.8136,62.8132,2.4798,77.8921,True,True

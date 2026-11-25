@@ -1,0 +1,7 @@
+{
+  "gpu_name": "Tesla T4",
+  "total_train_time_sec": 245.5,
+  "peak_gpu_mem_mb": 543.3,
+  "best_epoch": 5,
+  "best_val_auc": 0.6657757536682454
+}
